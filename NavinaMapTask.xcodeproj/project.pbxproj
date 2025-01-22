@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		762625E92D41594900685B21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762625E82D41594900685B21 /* AppDelegate.swift */; };
+		762625EB2D41594900685B21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762625EA2D41594900685B21 /* SceneDelegate.swift */; };
+		762625ED2D41594900685B21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762625EC2D41594900685B21 /* ViewController.swift */; };
+		762625F02D41594900685B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762625EE2D41594900685B21 /* Main.storyboard */; };
+		762625F32D41594900685B21 /* NavinaMapTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 762625F12D41594900685B21 /* NavinaMapTask.xcdatamodeld */; };
+		762625F52D41594E00685B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762625F42D41594E00685B21 /* Assets.xcassets */; };
+		762625F82D41594E00685B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762625F62D41594E00685B21 /* LaunchScreen.storyboard */; };
+		762626032D41594E00685B21 /* NavinaMapTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762626022D41594E00685B21 /* NavinaMapTaskTests.swift */; };
+		7626260E2D41594E00685B21 /* NavinaMapTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7626260D2D41594E00685B21 /* NavinaMapTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		762625FF2D41594E00685B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 762625DD2D41594900685B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 762625E42D41594900685B21;
+			remoteInfo = NavinaMapTask;
+		};
+		7626260A2D41594E00685B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 762625DD2D41594900685B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 762625E42D41594900685B21;
+			remoteInfo = NavinaMapTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		762625E52D41594900685B21 /* NavinaMapTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavinaMapTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		762625E82D41594900685B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		762625EA2D41594900685B21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		762625EC2D41594900685B21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		762625EF2D41594900685B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		762625F22D41594900685B21 /* NavinaMapTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NavinaMapTask.xcdatamodel; sourceTree = "<group>"; };
+		762625F42D41594E00685B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		762625F72D41594E00685B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		762625F92D41594E00685B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		762625FE2D41594E00685B21 /* NavinaMapTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavinaMapTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		762626022D41594E00685B21 /* NavinaMapTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavinaMapTaskTests.swift; sourceTree = "<group>"; };
+		762626042D41594E00685B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		762626092D41594E00685B21 /* NavinaMapTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavinaMapTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7626260D2D41594E00685B21 /* NavinaMapTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavinaMapTaskUITests.swift; sourceTree = "<group>"; };
+		7626260F2D41594F00685B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		762625E22D41594900685B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762625FB2D41594E00685B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762626062D41594E00685B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		762625DC2D41594900685B21 = {
+			isa = PBXGroup;
+			children = (
+				762625E72D41594900685B21 /* NavinaMapTask */,
+				762626012D41594E00685B21 /* NavinaMapTaskTests */,
+				7626260C2D41594E00685B21 /* NavinaMapTaskUITests */,
+				762625E62D41594900685B21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		762625E62D41594900685B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				762625E52D41594900685B21 /* NavinaMapTask.app */,
+				762625FE2D41594E00685B21 /* NavinaMapTaskTests.xctest */,
+				762626092D41594E00685B21 /* NavinaMapTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		762625E72D41594900685B21 /* NavinaMapTask */ = {
+			isa = PBXGroup;
+			children = (
+				762625E82D41594900685B21 /* AppDelegate.swift */,
+				762625EA2D41594900685B21 /* SceneDelegate.swift */,
+				762625EC2D41594900685B21 /* ViewController.swift */,
+				762625EE2D41594900685B21 /* Main.storyboard */,
+				762625F42D41594E00685B21 /* Assets.xcassets */,
+				762625F62D41594E00685B21 /* LaunchScreen.storyboard */,
+				762625F92D41594E00685B21 /* Info.plist */,
+				762625F12D41594900685B21 /* NavinaMapTask.xcdatamodeld */,
+			);
+			path = NavinaMapTask;
+			sourceTree = "<group>";
+		};
+		762626012D41594E00685B21 /* NavinaMapTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				762626022D41594E00685B21 /* NavinaMapTaskTests.swift */,
+				762626042D41594E00685B21 /* Info.plist */,
+			);
+			path = NavinaMapTaskTests;
+			sourceTree = "<group>";
+		};
+		7626260C2D41594E00685B21 /* NavinaMapTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7626260D2D41594E00685B21 /* NavinaMapTaskUITests.swift */,
+				7626260F2D41594F00685B21 /* Info.plist */,
+			);
+			path = NavinaMapTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		762625E42D41594900685B21 /* NavinaMapTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762626122D41594F00685B21 /* Build configuration list for PBXNativeTarget "NavinaMapTask" */;
+			buildPhases = (
+				762625E12D41594900685B21 /* Sources */,
+				762625E22D41594900685B21 /* Frameworks */,
+				762625E32D41594900685B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavinaMapTask;
+			productName = NavinaMapTask;
+			productReference = 762625E52D41594900685B21 /* NavinaMapTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		762625FD2D41594E00685B21 /* NavinaMapTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762626152D41594F00685B21 /* Build configuration list for PBXNativeTarget "NavinaMapTaskTests" */;
+			buildPhases = (
+				762625FA2D41594E00685B21 /* Sources */,
+				762625FB2D41594E00685B21 /* Frameworks */,
+				762625FC2D41594E00685B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				762626002D41594E00685B21 /* PBXTargetDependency */,
+			);
+			name = NavinaMapTaskTests;
+			productName = NavinaMapTaskTests;
+			productReference = 762625FE2D41594E00685B21 /* NavinaMapTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		762626082D41594E00685B21 /* NavinaMapTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762626182D41594F00685B21 /* Build configuration list for PBXNativeTarget "NavinaMapTaskUITests" */;
+			buildPhases = (
+				762626052D41594E00685B21 /* Sources */,
+				762626062D41594E00685B21 /* Frameworks */,
+				762626072D41594E00685B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7626260B2D41594E00685B21 /* PBXTargetDependency */,
+			);
+			name = NavinaMapTaskUITests;
+			productName = NavinaMapTaskUITests;
+			productReference = 762626092D41594E00685B21 /* NavinaMapTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		762625DD2D41594900685B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					762625E42D41594900685B21 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					762625FD2D41594E00685B21 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 762625E42D41594900685B21;
+					};
+					762626082D41594E00685B21 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 762625E42D41594900685B21;
+					};
+				};
+			};
+			buildConfigurationList = 762625E02D41594900685B21 /* Build configuration list for PBXProject "NavinaMapTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 762625DC2D41594900685B21;
+			productRefGroup = 762625E62D41594900685B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				762625E42D41594900685B21 /* NavinaMapTask */,
+				762625FD2D41594E00685B21 /* NavinaMapTaskTests */,
+				762626082D41594E00685B21 /* NavinaMapTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		762625E32D41594900685B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762625F82D41594E00685B21 /* LaunchScreen.storyboard in Resources */,
+				762625F52D41594E00685B21 /* Assets.xcassets in Resources */,
+				762625F02D41594900685B21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762625FC2D41594E00685B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762626072D41594E00685B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		762625E12D41594900685B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762625F32D41594900685B21 /* NavinaMapTask.xcdatamodeld in Sources */,
+				762625ED2D41594900685B21 /* ViewController.swift in Sources */,
+				762625E92D41594900685B21 /* AppDelegate.swift in Sources */,
+				762625EB2D41594900685B21 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762625FA2D41594E00685B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762626032D41594E00685B21 /* NavinaMapTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762626052D41594E00685B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7626260E2D41594E00685B21 /* NavinaMapTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		762626002D41594E00685B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 762625E42D41594900685B21 /* NavinaMapTask */;
+			targetProxy = 762625FF2D41594E00685B21 /* PBXContainerItemProxy */;
+		};
+		7626260B2D41594E00685B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 762625E42D41594900685B21 /* NavinaMapTask */;
+			targetProxy = 7626260A2D41594E00685B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		762625EE2D41594900685B21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				762625EF2D41594900685B21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		762625F62D41594E00685B21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				762625F72D41594E00685B21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		762626102D41594F00685B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		762626112D41594F00685B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		762626132D41594F00685B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LPBBZ7LQ6;
+				INFOPLIST_FILE = NavinaMapTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kartantech.NavinaMapTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		762626142D41594F00685B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LPBBZ7LQ6;
+				INFOPLIST_FILE = NavinaMapTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kartantech.NavinaMapTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		762626162D41594F00685B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LPBBZ7LQ6;
+				INFOPLIST_FILE = NavinaMapTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kartantech.NavinaMapTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavinaMapTask.app/NavinaMapTask";
+			};
+			name = Debug;
+		};
+		762626172D41594F00685B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LPBBZ7LQ6;
+				INFOPLIST_FILE = NavinaMapTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kartantech.NavinaMapTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavinaMapTask.app/NavinaMapTask";
+			};
+			name = Release;
+		};
+		762626192D41594F00685B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LPBBZ7LQ6;
+				INFOPLIST_FILE = NavinaMapTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kartantech.NavinaMapTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavinaMapTask;
+			};
+			name = Debug;
+		};
+		7626261A2D41594F00685B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LPBBZ7LQ6;
+				INFOPLIST_FILE = NavinaMapTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kartantech.NavinaMapTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavinaMapTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		762625E02D41594900685B21 /* Build configuration list for PBXProject "NavinaMapTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762626102D41594F00685B21 /* Debug */,
+				762626112D41594F00685B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762626122D41594F00685B21 /* Build configuration list for PBXNativeTarget "NavinaMapTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762626132D41594F00685B21 /* Debug */,
+				762626142D41594F00685B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762626152D41594F00685B21 /* Build configuration list for PBXNativeTarget "NavinaMapTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762626162D41594F00685B21 /* Debug */,
+				762626172D41594F00685B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762626182D41594F00685B21 /* Build configuration list for PBXNativeTarget "NavinaMapTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762626192D41594F00685B21 /* Debug */,
+				7626261A2D41594F00685B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		762625F12D41594900685B21 /* NavinaMapTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				762625F22D41594900685B21 /* NavinaMapTask.xcdatamodel */,
+			);
+			currentVersion = 762625F22D41594900685B21 /* NavinaMapTask.xcdatamodel */;
+			path = NavinaMapTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 762625DD2D41594900685B21 /* Project object */;
+}
