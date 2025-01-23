@@ -9,7 +9,7 @@ import Foundation
 import CoreLocation
 
 class TaskStorage {
-    private let storageKey = "tasks"
+     let storageKey = "tasks"
     
     static let shared = TaskStorage()
     private init() {}
