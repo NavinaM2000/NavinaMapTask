@@ -57,33 +57,46 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="105"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="s9t-Zn-N9F">
-                                                    <rect key="frame" x="5" y="5" width="404" height="95"/>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="knf-ox-VIV">
+                                                    <rect key="frame" x="10" y="10" width="394" height="85"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cm-FS-en1">
-                                                            <rect key="frame" x="0.0" y="0.0" width="404" height="45.5"/>
-                                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZL-cr-X3g">
-                                                            <rect key="frame" x="0.0" y="50.5" width="404" height="44.5"/>
-                                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
-                                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="s9t-Zn-N9F">
+                                                            <rect key="frame" x="0.0" y="0.0" width="394" height="85"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cm-FS-en1">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="41"/>
+                                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZL-cr-X3g">
+                                                                    <rect key="frame" x="0.0" y="46" width="394" height="39"/>
+                                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
+                                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
                                                     </subviews>
-                                                </stackView>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="s9t-Zn-N9F" secondAttribute="trailing" id="6n0-sF-31Z"/>
+                                                        <constraint firstItem="s9t-Zn-N9F" firstAttribute="leading" secondItem="knf-ox-VIV" secondAttribute="leading" id="Qnj-KZ-zGg"/>
+                                                        <constraint firstAttribute="bottom" secondItem="s9t-Zn-N9F" secondAttribute="bottom" id="ifO-S2-h7p"/>
+                                                        <constraint firstItem="s9t-Zn-N9F" firstAttribute="top" secondItem="knf-ox-VIV" secondAttribute="top" id="qJ5-fb-YSP"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="s9t-Zn-N9F" secondAttribute="bottom" constant="5" id="Jim-W0-xPa"/>
-                                                <constraint firstAttribute="trailing" secondItem="s9t-Zn-N9F" secondAttribute="trailing" constant="5" id="KiC-LV-1yZ"/>
-                                                <constraint firstItem="s9t-Zn-N9F" firstAttribute="top" secondItem="qaE-Ng-w4S" secondAttribute="top" constant="5" id="XBG-iy-xxR"/>
-                                                <constraint firstItem="s9t-Zn-N9F" firstAttribute="leading" secondItem="qaE-Ng-w4S" secondAttribute="leading" constant="5" id="bC1-6U-mbk"/>
+                                                <constraint firstItem="knf-ox-VIV" firstAttribute="top" secondItem="qaE-Ng-w4S" secondAttribute="top" constant="10" id="UrU-LA-p3b"/>
+                                                <constraint firstItem="knf-ox-VIV" firstAttribute="leading" secondItem="qaE-Ng-w4S" secondAttribute="leading" constant="10" id="VMf-p7-vYa"/>
+                                                <constraint firstAttribute="trailing" secondItem="knf-ox-VIV" secondAttribute="trailing" constant="10" id="cJl-Jn-bDy"/>
+                                                <constraint firstAttribute="bottom" secondItem="knf-ox-VIV" secondAttribute="bottom" constant="10" id="dCT-uR-AdY"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="desc" destination="0ZL-cr-X3g" id="yrO-P3-il9"/>
+                                            <outlet property="mainView" destination="knf-ox-VIV" id="Kg0-S9-Uzs"/>
                                             <outlet property="title" destination="1cm-FS-en1" id="8ch-KF-PR5"/>
                                         </connections>
                                     </tableViewCell>
