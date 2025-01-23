@@ -16,6 +16,11 @@
 		762625F82D41594E00685B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762625F62D41594E00685B21 /* LaunchScreen.storyboard */; };
 		762626032D41594E00685B21 /* NavinaMapTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762626022D41594E00685B21 /* NavinaMapTaskTests.swift */; };
 		7626260E2D41594E00685B21 /* NavinaMapTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7626260D2D41594E00685B21 /* NavinaMapTaskUITests.swift */; };
+		7626261F2D41596600685B21 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7626261E2D41596600685B21 /* TaskTableViewCell.swift */; };
+		762626242D41598F00685B21 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762626232D41598F00685B21 /* TaskViewController.swift */; };
+		762626302D415B1E00685B21 /*  TaskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7626262F2D415B1E00685B21 /*  TaskStorage.swift */; };
+		762626382D415B3F00685B21 /* locationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762626372D415B3F00685B21 /* locationModel.swift */; };
+		7626263D2D415B6800685B21 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7626263C2D415B6800685B21 /* TaskListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		762626092D41594E00685B21 /* NavinaMapTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavinaMapTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7626260D2D41594E00685B21 /* NavinaMapTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavinaMapTaskUITests.swift; sourceTree = "<group>"; };
 		7626260F2D41594F00685B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7626261E2D41596600685B21 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		762626232D41598F00685B21 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		7626262F2D415B1E00685B21 /*  TaskStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " TaskStorage.swift"; sourceTree = "<group>"; };
+		762626372D415B3F00685B21 /* locationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationModel.swift; sourceTree = "<group>"; };
+		7626263C2D415B6800685B21 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,13 @@
 		762625E72D41594900685B21 /* NavinaMapTask */ = {
 			isa = PBXGroup;
 			children = (
+				7626262B2D4159B700685B21 /* Controller */,
+				7626262A2D4159AC00685B21 /* ViewModel */,
+				762626292D4159A500685B21 /* View */,
+				762626282D41599E00685B21 /* Model */,
 				762625E82D41594900685B21 /* AppDelegate.swift */,
 				762625EA2D41594900685B21 /* SceneDelegate.swift */,
-				762625EC2D41594900685B21 /* ViewController.swift */,
-				762625EE2D41594900685B21 /* Main.storyboard */,
+				7626261E2D41596600685B21 /* TaskTableViewCell.swift */,
 				762625F42D41594E00685B21 /* Assets.xcassets */,
 				762625F62D41594E00685B21 /* LaunchScreen.storyboard */,
 				762625F92D41594E00685B21 /* Info.plist */,
@@ -129,6 +142,40 @@
 				7626260F2D41594F00685B21 /* Info.plist */,
 			);
 			path = NavinaMapTaskUITests;
+			sourceTree = "<group>";
+		};
+		762626282D41599E00685B21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7626262F2D415B1E00685B21 /*  TaskStorage.swift */,
+				762626372D415B3F00685B21 /* locationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		762626292D4159A500685B21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				762625EE2D41594900685B21 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7626262A2D4159AC00685B21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7626263C2D415B6800685B21 /* TaskListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7626262B2D4159B700685B21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				762626232D41598F00685B21 /* TaskViewController.swift */,
+				762625EC2D41594900685B21 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762626382D415B3F00685B21 /* locationModel.swift in Sources */,
 				762625F32D41594900685B21 /* NavinaMapTask.xcdatamodeld in Sources */,
 				762625ED2D41594900685B21 /* ViewController.swift in Sources */,
+				7626261F2D41596600685B21 /* TaskTableViewCell.swift in Sources */,
 				762625E92D41594900685B21 /* AppDelegate.swift in Sources */,
+				7626263D2D415B6800685B21 /* TaskListViewModel.swift in Sources */,
 				762625EB2D41594900685B21 /* SceneDelegate.swift in Sources */,
+				762626242D41598F00685B21 /* TaskViewController.swift in Sources */,
+				762626302D415B1E00685B21 /*  TaskStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
